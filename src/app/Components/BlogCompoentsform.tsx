@@ -10,11 +10,31 @@ const Categories = [
 ];
 
 const RecentPosts = [
-    { img: '/blogSide1.png', title: 'Going all-in with millennial design', date: '03 Aug 2022' },
-    { img: '/blogSide3.png', title: 'Exploring new ways of decorating', date: '15 Sep 2022' },
-    { img: '/blogSide4.png', title: 'Handmade pieces that took time to make', date: '10 Oct 2022' },
-    { img: '/blogSide2.png', title: 'Modern home in Milan', date: '15 Sep 2022' },
-    { img: '/blogSide5.png', title: 'Colorful office redesign', date: '25 Nov 2022' },
+    {
+        img: '/blogSide1.png',
+        title: 'Going all-in with millennial design',
+        date: '03 Aug 2022'
+    },
+    {
+        img: '/blogSide3.png',
+        title: 'Exploring new ways of decorating',
+        date: '15 Sep 2022'
+    },
+    {
+        img: '/blogSide4.png',
+        title: 'Handmade pieces that took time to make',
+        date: '10 Oct 2022'
+    },
+    {
+        img: '/blogSide2.png',
+        title: 'Modern home in Milan',
+        date: '15 Sep 2022'
+    },
+    {   
+        img: '/blogSide5.png',
+        title: 'Colorful office redesign',
+        date: '25 Nov 2022'
+    },
 ];
 
 const BlogComponentsForm = () => {
