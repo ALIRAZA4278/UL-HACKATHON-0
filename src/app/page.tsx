@@ -7,6 +7,7 @@ import HomeSection2 from "./Components/HomeSection2";
 import HomeSection4 from "./Components/HomeSection4";
 import HomeSection5 from "./Components/HomeSection5";
 import HomeSection6 from "./Components/HomeSection6";
+import ProductList from "./Components/ProductList";
 
 const HomePage = async () => {
 
@@ -32,6 +33,7 @@ const HomePage = async () => {
             limit={4}
           />
         </Suspense> */}
+        <ProductList/>
         <div className="h-12 w-full items-center justify-center text-center">
 
           <Link href="/list?cat=all-products">
