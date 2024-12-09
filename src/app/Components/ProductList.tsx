@@ -13,19 +13,19 @@ export default function ProductList() {
       id: 1,
       name: 'Trenton modular sofa 3',
       price: '25000',
-      image: '/Done5.png',
+      image: '/1.png',
     },
     {
       id: 2,
       name: 'Granite dining table with dining chair',
       price: '25000',
-      image: '/Done4.png',
+      image: '/2.png',
     },
     {
       id: 3,
       name: 'Outdoor bar table and stool',
       price: '25000',
-      image: '/Done3.png',
+      image: '/3.png',
     },
     {
       id: 4,

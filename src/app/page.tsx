@@ -36,7 +36,7 @@ const HomePage = async () => {
         <ProductList/>
         <div className="h-12 w-full items-center justify-center text-center">
 
-          <Link href="/list?cat=all-products">
+          <Link href="/Shop ">
             <button className='text-black underline py-4 px-2 mt-4 xl:mt-8 text-lg lg:text-xl underline-offset-8 decoration-2'>
               view more
             </button>

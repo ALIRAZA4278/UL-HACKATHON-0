@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ShopList from "../Components/ShopList";
+import DeliveryPage from "../Components/DeliveryPage";
 
 const Shoppage = async () => {
     return (
@@ -21,6 +22,7 @@ const Shoppage = async () => {
                 </div>
             </div>
             <ShopList />
+            <DeliveryPage />
         </div>
     );
 };
