@@ -13,7 +13,7 @@ const HomeSection2 = () => {
                         </span>
                         <span className="text-left w-[70%]">
                             <h2 className="text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-normal text-black">Side table</h2>
-                            <Link href="/list?cat=all-products">
+                            <Link href="/Shop">
                                 <button className="text-black underline py-4 px-2 mt-4 xl:mt-8 text-lg lg:text-xl underline-offset-8 decoration-2">
                                     view more
                                 </button>
@@ -26,7 +26,7 @@ const HomeSection2 = () => {
                         </span>
                         <span className="text-left w-[70%]">
                             <h2 className="text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-normal text-black">Side table</h2>
-                            <Link href="/list?cat=all-products">
+                            <Link href="/Shop">
                                 <button className="text-black underline py-4 px-2 mt-4 xl:mt-8 text-lg lg:text-xl underline-offset-8 decoration-2">
                                     view more
                                 </button>
