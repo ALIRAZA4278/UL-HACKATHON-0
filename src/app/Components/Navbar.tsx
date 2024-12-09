@@ -17,7 +17,7 @@ const Navbar = () => {
           {/* Left */}
           <div className="flex items-center gap-12">
             <Link href="/">Home</Link>
-            <Link href="/list?cat=all-products">Shop</Link>
+            <Link href="/Shop">Shop</Link>
             <Link href="/Blog">Blog</Link>
             <Link href="/Contact">Contact</Link>
           </div>

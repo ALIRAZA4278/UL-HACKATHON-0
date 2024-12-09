@@ -14,7 +14,7 @@ const Slider = () => {
               <h1 className='text-5xl lg:text-6xl 2xl:text-8xl font-normal text-black xl:text-9xl'>
                 Rockey single seater
               </h1>
-              <Link href="/list?cat=all-products">
+              <Link href="/Shop">
                 <button className='text-black underline py-4 px-2 mt-4 xl:mt-8 text-lg lg:text-xl underline-offset-8 decoration-2'>
                   Shop Now
                 </button>
