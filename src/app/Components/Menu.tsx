@@ -20,7 +20,7 @@ const Menu = () => {
       {open && (
         <div className="absolute bg-black text-white left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-8 text-xl  z-10">
           <Link href="/">Home</Link>
-          <Link href="/list?cat=all-products">Shop</Link>
+          <Link href="/Shop">Shop</Link>
           <Link href="/Blog">Blog</Link>
           <Link href="/Contact">Contact</Link>
           <Link href="/Cart">Cart(1)</Link>
