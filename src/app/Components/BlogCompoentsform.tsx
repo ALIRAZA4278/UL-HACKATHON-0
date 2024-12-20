@@ -74,7 +74,7 @@ const BlogComponentsForm = () => {
                 <div className="w-full max-w-3xl space-y-6">
                     {RecentPosts.map((post, index) => (
                         <div key={index} className="flex items-start text-left p-4 hover:bg-gray-100 transition duration-200">
-                            <Image src={post.img} alt={post.title} width={100} height={100} className="rounded-md object-cover" />
+                            <Image src={post.img} alt={post.title} width={100} height={100} className="rounded-md object-cover" priority={true} />
                             <div className="ml-4">
                                 <p className="text-lg font-semibold text-gray-700">{post.title}</p>
                                 <p className="text-sm text-gray-500 mt-1">{post.date}</p>
